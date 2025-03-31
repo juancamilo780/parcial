@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+#container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  color: #ffe81f;
+  font-family: 'Audiowide', sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  text-shadow: 0 0 10px #ffe81f;
+}
+
+#input_star {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: large;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #333;
+  color: #ffe81f;
+  border: 2px solid #ffe81f;
+}
+
+#button_search {
+  width: 30%;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: larger;
+  color: #000;
+  background-color: #ffe81f;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#button_search:hover {
+  background-color: #ffc107;
+  transform: scale(1.05);
+}
+
+#star-information {
+  width: 60%;
+  background-color: #222;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  border: 2px solid #ffe81f;
+}
+
+#show-info {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #333;
+  color: #ffe81f;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #ffc107;
+}
+
+h3 {
+  margin: 5px 0;
+  color: #fff;
+}
